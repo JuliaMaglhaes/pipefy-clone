@@ -23,15 +23,22 @@ export const Container = styled.div`
         border-left: 1px solid rgba(0, 0, 0, 0.05);
     }
 
-    heade{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 49px;
+    .titulobarra{
         position:absolute;
         background-color:#ecf1f8;
         width:290px;
         z-index:999;
+        height:49px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 49px;
         
 
         h2 {

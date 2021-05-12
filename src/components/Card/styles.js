@@ -14,8 +14,7 @@ export const Container = styled.div`
         position: absolute;
         top: -22px;
         left: 15px;
-        background-color:transparent;
-        z-index: 998;
+        
     }
     p {
         font-weight: 500;
