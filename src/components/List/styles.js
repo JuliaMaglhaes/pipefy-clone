@@ -5,9 +5,24 @@ export const Container = styled.div`
     height: 100%;
     flex: 0 0 320px;
     opacity: ${props => props.done ? 0.6 : 1};
+    overflow-y:visible;
+
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    /* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
 
     & + div {
-        // border-left: 1px solid rgba(0, 0, 0, 0.05);
+        border-left: 1px solid rgba(0, 0, 0, 0.05);
     }
 
     header {
