@@ -23,7 +23,7 @@ export const Container = styled.div`
         border-left: 1px solid rgba(0, 0, 0, 0.05);
     }
 
-    header{
+    heade{
         display: flex;
         justify-content: space-between;
         align-items: center;
