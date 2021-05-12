@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
     height: 80px;
     padding: 0 30px;
-    background: #0081ff;
+    background: #3c5bfd;
     color: #fff;
     display:flex;
     align-items:center;
@@ -11,6 +11,6 @@ export const Container = styled.div`
 
     img{
         position:relative;
-        width:15%;
+        width:14%;
     }
 `;

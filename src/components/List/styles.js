@@ -10,26 +10,29 @@ export const Container = styled.div`
     ::-webkit-scrollbar {
         width: 5px;
     }
-
-    /* Track */
-::-webkit-scrollbar-track {
-  background: transparent; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888; 
-}
+    ::-webkit-scrollbar-track {
+    background: transparent; 
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: #888; 
+    }
 
     & + div {
         border-left: 1px solid rgba(0, 0, 0, 0.05);
     }
 
-    header {
+    header{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 42px;
+        height: 49px;
+        position:absolute;
+        background-color:#ecf1f8;
+        width:290px;
+        z-index:999;
+        
 
         h2 {
         font-weight: 500;
@@ -48,6 +51,6 @@ export const Container = styled.div`
     }
 
     ul {
-        margin-top: 30px;
+        margin-top: 35px;
     }
 `;

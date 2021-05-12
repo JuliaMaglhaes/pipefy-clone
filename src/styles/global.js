@@ -23,4 +23,12 @@ export default createGlobalStyle`
     ul {
         list-style: none;
     }
+
+    @media (max-width: 768px){
+
+        *{
+            overflow:visible;
+        }
+
+    }
 `;
